@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* Layout */
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.containar{
+    width: 90%;
+    margin: auto;
+}
+.underline{
+    border-top: 2PX solid #00fff1;
+    width: 80PX;
+    margin:60PX auto;
+}
+.pragraph{
+    color: #97a4be;
+}
+.smal-heading{
+    font-weight: 500;
+    color: #233148;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+/* Header part  */
+header{
+    background-color: #223047;
+    color: #fff;
+    height: 600px;
+}
+.logo-part{
+    padding: 10px;
+    padding-left: 100px;
+}
+.logo-part h1{
+    font-weight: 500;
+    color: #00fff1;
+}
+.menu-part li {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+.menu-part li a{
+    color: #fff;
+}
+.menu-part li a:hover{
+    color: #00fff250;
+    transition: ease-in-out .6s;
+}
+.btn{
+    padding-left: 30px;
+}
+.btn a button{
+    width: 30%;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px 5px;
+    background-color: #00fff1;
+}
+.btn a button:hover{
+    background-color: #00fff260;
+    transition: ease-in-out 0.6s;
+}
+.header-writting-part{
+    padding: 100px 100px;
+    text-align: start;
+}
+.header-writting-part .heading{
+    width:60%;
+    font-size: 30px;
+    margin: 40px 0px;
+    font-weight: 400;
+}
+.pragraph{
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.btn1{
+    width: 30%;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right:20px;
+    background-color: #00fff1 ;
+}
+.btn1:hover{
+    background-color: #00fff266;
+    transition: ease-in-out 0.6s;
+}
+.btn2{
+    width: 30%;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+.btn2:hover{
+    background-color: #44629251;
+    color: rgba(255, 255, 255, 0.414);
+    transition: ease-in-out 0.6s;
+    border: 2px solid rgba(255, 255, 255, 0.463);
+}
+.image-part img{
+    width: 50%;
+    height: 100%;
+    margin-top: 60px;
+}
+/* brand part  */
+#brand{
+    text-align: center;
+}
+.brand-writting-part{
+    padding-top: 180px;
+}
+.global-heading{
+    width: 21%;
+    margin: auto;
+    color: #233148;
+    font-weight: 500;
+}
+.box-part {
+    width: 90%;
+    margin: auto;
+}
+.brand-box{
+    border: 2px solid whitesmoke;
+    border-top: none;
+    margin: 20px;
+    width: 21%;
+    border-radius: 10px;
+}
+.brand-box img{
+    width: 100px;
+}
+.brand-box .smal-heading{
+    margin:20px 0px;
+}
+.brand-box .pragraph{
+    width: 100%;
+    height: 100%;
+}
+/* smartphone part  */
+.space img{
+    width: 100%;
+}
+.smartphone-writting-part{
+    background-color: #f5f6fa;
+}
+.writting-box{
+    width: 100%;
+    padding:69px 0px ;
+    padding-left: 100px;
+}
+.writting-box .smal-heading{
+    width: 30%;
+    margin-bottom: 20px;
+}
+.writting-box .pragraph{
+    width: 75%;
+    margin: 0;
+}
+/* stady part  */
+.stady-writting-part{
+    text-align: end;
+    padding-top: 80px;
+}
+.stady-writting-part .smal-heading{
+    margin-bottom: 30px;
+}
+.stady-writting-part .pragraph{
+    width: 100%;
+}
+.code-image-part{
+    padding-left: 80px;
+    padding-top: 60px;
+}
+.code-image-part img{
+    width: 70%;
+}
+.stady-writting-part a .btn1{
+    margin: 0;
+}
+/* screen part */
+#screen{
+    height: 400px;
+    padding: 50px;
+}
+.screen-image{
+    text-align: end;
+}
+.screen-image img{
+    width: 70%;
+    height: 100%;
+    
+    
+}
+.screen-menu{
+    padding-left: 100px;
+    float: right;
+}
+.screen-menu button{
+    width: 60%;
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+    cursor: pointer;
+}
+.screen-menu .button-uniq img{
+    width: 8%;
+    padding: 20px 10px;
+    padding-top: 3px;
+    padding-bottom: 25px;
+}
+.screen-menu button img{
+    float: left;
+    width: 10%;
+    padding: 7px 10px;
+}
+.screen-menu button h5{
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+}
+.screen-menu button:hover{
+    background-color: #00fff0;
+    transition: ease-in-out 0.6s;
+    box-shadow: 0px 0px 5px 2px #00fff0;
+    border-right: 2px solid #5e979d;
+    border-bottom: 1px solid #5e979d;
+}
+/* phone-type  */
+#phone-type{
+    background-color: #f5f6fa;
+    position: relative;
+}
+.type-writting-part{
+    text-align: end;
+    padding-top: 80px;
+}
+.type-writting-part .smal-heading{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.type-writting-part .fa-solid{
+    width: 13px;
+    background-color: #00fff0;
+    border-radius: 50%;
+    font-size: 12px;
+    margin: 15px;
+}
+.type-writting-part h5{
+    padding-right: 30px;
+}
+.type-writting-part .pra{
+    width: 100%;
+}
+.type-image-part .left{
+    width: 20%;
+    position: relative;
+}
+
+/* whatch btn part */
+#whatch{
+    background-color: #223047;
+    text-align: center;
+    color: #97a4be;
+}
+.watch-part{
+    margin: 100px;
+}
+.watch-part h6{
+    margin-top: 20px;
+}
+.watch-part .pragraph{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+/* JONING PART  */
+#joining{
+    text-align: center;
+}
+.joining-part{
+    margin: 100px 0px;
+}
+.joining-part .smal-heading{
+    margin: 20px 0px;
+}
+.joining-part .pragraph{
+    width: 60%;
+    margin: auto;
+    margin-bottom:20px ;
+    color: #97a4be;
+}
+.joining-part .btn1{
+    width: 10%;
+    margin: auto ;
+}
+/* pragraph part */
+#pragraph-section{
+    background-color: #223047;
+}
+.pragraph-part{
+    margin:100px 0px ;
+}
+.pragraph-part .pragraph{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: #09c8c4;
+}
